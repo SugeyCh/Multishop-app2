@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'title';
+  src: url('./font/Baloo_Bahai_2/static/BalooBhai2-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'text';
+  src: url('./font/Didact_Gothic/DidactGothic-Regular.ttf');
+}
+
+@import 'dashboard';
+@import 'login';

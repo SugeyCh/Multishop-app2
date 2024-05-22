@@ -1,0 +1,127 @@
+@media (max-width: 767px) {
+  body {
+    background-image: url('../public/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 10%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+
+  .img {
+    width: 50%;
+    height: 4.5vh;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+    min-width: 10%;
+    height: 45vh;
+  }
+
+  .input-icon {
+    display: flex;
+    flex-direction: column;
+    min-width: 103%;
+    position: relative;
+    margin-bottom: 25px;
+  }
+
+  .input-icon i {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+  .clave, .instancia{
+    margin-top: 25px;
+  }
+
+  .input {
+    min-width: 100%;
+    border-radius: 20px;
+    padding: 5px 5px 5px 56px;
+    border: 1px solid rgba(58, 108, 184, 0.44);
+    background: rgba(163, 191, 225, 0.159);
+    font-family: text;
+    font-size: 15px;
+    color: rgba(30, 30, 30, 0.517);
+    height: 5.7vh;
+    outline: none;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.057) inset;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.072) inset;
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.057) inset;
+    box-sizing: border-box; /* Ensure padding does not affect total width */
+  }
+
+  .input-msg, .input-msg2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px; 
+  }
+
+  .error{
+    width: 100%;
+    position: absolute;
+    margin-bottom: 35px;
+  }
+
+  .input-msg p {
+    margin-top: 45px;
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    margin-bottom: 25px;
+    left: 0;
+  }
+
+  .input-msg2 p {
+    margin-top: 45px;
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    margin-bottom: 25px;
+    left: 0;
+  }
+
+  .btn {
+    margin-top: 42px;
+    min-width: 103%;
+    height: 6vh;
+  }
+
+  .button {
+    min-width: 100%;
+    height: 6vh;
+    background: #3A6CB8;
+    border-radius: 10px;
+    color: rgba(255, 253, 253, 0.88);
+    font-family: title;
+    font-size: 16px;
+  }
+}

@@ -17,9 +17,22 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@a/*": [
+        "./app/*"
+      ],
+      "@c/*": [
+        "./app/components/*"
+      ],
+      "@g/*": [
+        "./app/global/*"
+      ],
+      "@s/*": [
+        "./styles/*"
+      ],
+      "@api/*": [
+        "./pages/api/*"
+      ],
+      "@p/*": ["./public/*"]
     },
     "plugins": [
       {
