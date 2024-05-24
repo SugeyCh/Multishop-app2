@@ -1,0 +1,57 @@
+@media (max-width: 767px) {
+  .navbar{
+    min-width: 10%;
+    height: 9.2vh;
+    padding: 10px 25px 7px 25px;
+    background: #f1f1f1c2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbar__logo{
+      display: flex;
+      align-items: center;
+
+      .circle{
+        border: 2px solid #4487B2;
+        padding: 8px;
+        border-radius: 50px;
+      }
+
+      .img2{
+        margin-left: 9px;
+        width: 103px;
+        height: 4.5vh;
+      }
+    }
+
+    .mood{
+      width: 26%;
+      height: 3.8vh;
+      box-shadow: 6px 6px 12px #c5c5c5,
+           -6px -6px 12px #ffffff;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+
+      .mood-btn{
+        width: 100%;
+        padding: 5px 11px 5px 11px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .circle2{
+          position: absolute;
+          background: #4487B2;
+          width: 24%;
+          left: 50px;
+          height: 2.5vh;
+          border-radius: 50px;
+        }
+      }
+
+    }
+  }
+}
