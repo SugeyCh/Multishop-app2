@@ -12,6 +12,48 @@
   src: url('./font/Didact_Gothic/DidactGothic-Regular.ttf');
 }
 
+body {
+  @apply transition-colors duration-300 ease-in-out;
+}
+
+body.dark {
+  @apply bg-gray-900 text-white;
+}
+
+.circle2 {
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+body.dark .circle2 {
+  transform: translateX(1.25rem); /* Ajusta según sea necesario */
+}
+
+body.dark .mood-btn {
+  @apply bg-gray-700 text-white;
+}
+
+/* Asegúrate de que los íconos estén bien alineados y se ajusten según el modo */
+.mood-btn {
+  @apply flex items-center justify-between px-4 py-2 bg-gray-300 text-black rounded-full;
+  width: 80px;
+  height: 40px;
+  position: relative;
+}
+
+.mood-btn .circle2 {
+  width: 20px;
+  height: 20px;
+  @apply bg-blue-500 rounded-full absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5px;
+}
+
+body.dark .mood-btn .circle2 {
+  left: 55px;
+}
+
 @import 'dashboard';
 @import 'login';
 @import 'navbar';
+@import 'dark-mode';
