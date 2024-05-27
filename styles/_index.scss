@@ -12,6 +12,11 @@
   src: url('./font/Didact_Gothic/DidactGothic-Regular.ttf');
 }
 
+:root {
+  --light-pulse-color: rgba(255, 255, 255, 0.7);
+  --dark-pulse-color: rgba(130, 26, 26, 0.897);
+}
+
 body {
   @apply transition-colors duration-300 ease-in-out;
 }
